@@ -1,0 +1,13 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-gap: 10px; /* Espacio entre las cartas */
+    max-width: 600px; /* Ajusta según lo necesario */
+    margin: 100px auto; /* Centrado horizontalmente */
+}
+
+.memo-block {
+    aspect-ratio: 1 / 1; /* Hace que cada carta sea cuadrada */
+    width: 100%; /* Se asegura que la carta ocupe todo el bloque */
+    height: 100%; /* Se asegura que la carta ocupe todo el bloque */
+}
